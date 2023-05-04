@@ -1,21 +1,24 @@
-const express=require('express')
-const {connection}=require("./config/mongo.db")
-const {userRouter}=require("./routers/user.router")
+const express = require('express')
+const { connection } = require("./config/mongo.db")
+const { userRouter } = require("./routers/user.router")
+const { lawyerRouter } = require('./routers/lawyer.router')
 
 const cors = require('cors')
 require('dotenv').config()
-const app=express()
+const app = express()
+
 app.use(cors())
 app.use(express.json())
 
-app.get("/",(req,res)=>{
+app.get("/", (req, res) => {
     res.send("Base Endpoint Of API")
 })
 
-app.use("/user",userRouter);
+app.use("/user", userRouter);
+app.use('/lawyer', lawyerRouter)
 
 
-app.listen(process.env.port,async()=>{
+app.listen(process.env.port, async () => {
     try {
         await connection
         console.log("Connected to the db")
