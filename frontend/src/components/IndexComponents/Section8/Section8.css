@@ -1,0 +1,27 @@
+.FeebackBox {
+  margin: 80px 200px;
+  padding: 40px;
+  height: 250px;
+  font-size: 20px;
+  background-color: white;
+  border: 2px solid teal;
+}
+.FeebackBox h6 {
+  text-align: right;
+  font-size: 21px;
+}
+.FeebackBox > * {
+  color: black;
+}
+.slick-dots button::after {
+  width: 60px;
+  background-color: #ffd41f !important;
+  color: #ffd41f !important;
+}
+.slick-dots li {
+  margin: 0px 25px !important;
+}
+.gettoknowusmoreparargafasdkfjnas {
+  width: 660px;
+  color: grey;
+}
