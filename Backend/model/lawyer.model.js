@@ -20,4 +20,4 @@ const lawyerSchema = mongoose.Schema({
 
 const LawyerModel = mongoose.model('lawyer', lawyerSchema);
 
-module.exports = LawyerModel;
+module.exports = {LawyerModel};
