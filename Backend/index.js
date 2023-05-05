@@ -1,6 +1,7 @@
 const express = require('express')
 const { connection } = require("./config/mongo.db")
 const { userRouter } = require("./routers/user.router")
+const AdminRouter = require('./routers/admin.router');
 const { lawyerRouter } = require('./routers/lawyer.router')
 
 const cors = require('cors')
@@ -16,7 +17,7 @@ app.get("/", (req, res) => {
 
 app.use("/user", userRouter);
 app.use('/lawyer', lawyerRouter)
-
+app.use('/admin', AdminRouter)
 
 app.listen(process.env.port, async () => {
     try {
