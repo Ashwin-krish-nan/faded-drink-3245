@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+
 const lawyerSchema = mongoose.Schema({
    name: String,
    address: String,
@@ -17,6 +18,7 @@ const lawyerSchema = mongoose.Schema({
 
 }, 
 { timestamps: true })
+
 
 const LawyerModel = mongoose.model('lawyer', lawyerSchema);
 
