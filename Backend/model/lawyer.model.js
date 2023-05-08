@@ -16,8 +16,7 @@ const lawyerSchema = mongoose.Schema({
    email: String,
    Rank: Number
 
-},
-   { timestamps: true })
+},{ timestamps: true })
 
 
 const LawyerModel = mongoose.model('lawyer', lawyerSchema);
