@@ -41,6 +41,5 @@ lawyerRouter.delete('/delete/:id', async (req, res) => {
     res.send({ 'msg': `Product with id: ${id} has been deleted` })
 })
 
-
 module.exports = { lawyerRouter }
 
