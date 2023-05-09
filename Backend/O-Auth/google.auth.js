@@ -1,71 +1,34 @@
-// const express = require("express");
-// const GoogleRouter = express.Router();
-// const passport = require("../config/google.auth");
-// const UserModel = require("../model/user.model");
-// const bcrypt = require("bcrypt")
-// let RedirectLink = `https://acelegalservices.vercel.app`
+const GoogleStrategy = require("passport-google-oauth20").Strategy;
+const passport = require("passport");
+require('dotenv').config()
 
-// GoogleRouter.get("/google", passport.authenticate('google', { scope: ['profile', 'email'] }));
+const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
+const GOOGLE_CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
 
 
-// GoogleRouter.get(
-//   "/google/callback",
-//   passport.authenticate("google", {
-//     successRedirect: "/auth/login/success",
-//     failureRedirect: "/auth/login/failed",
-//   })
-// );
-
-// GoogleRouter.get("/login/success", async (req, res) => {
-//   if (!req.user) {
-//     return res.redirect(`${RedirectLink}/userdashboard?authsuccess=false`)
-//   }
-//   let payload = req.user
-
-//   let userDetails = {
-//     name: payload.displayName,
-//     email: payload.emails[0].value,
-//     gender: "Not Assigned",
-//     phone: 0,
-//     password: payload.emails[0].value,
-//     img: payload.photos[0].value,
-//     verified: true
-//   }
-//   // console.log(userDetails)
-//   console.log("Google Auth Accessed by" + userDetails.email);
-//   try {
-//     let user = await UserModel.find({ email: userDetails.email });
-//     if (user.length !== 0) {
-//       let id = user[0]._id
-//       res.redirect(`${RedirectLink}/userdashboard?authsuccess=true&userID=${id}`)
-//     } else {
-//       bcrypt.hash(userDetails.email, 10, async (err, hash) => {
-//         if (hash) {
-//           userDetails.password = hash
-//           let instance = new UserModel(userDetails);
-//           await instance.save()
-//           res.redirect(`${RedirectLink}/userdashboard?authsuccess=true&userID=${instance._id}`)
-//         }
-//       })
-//     }
-
-//   } catch (error) {
-//     console.log(error);
-//     res.redirect(`${RedirectLink}/userdashboard?authsuccess=false`)
-//   }
+passport.use(
+  new GoogleStrategy(
+    {
+      clientID: GOOGLE_CLIENT_ID,
+      clientSecret: GOOGLE_CLIENT_SECRET,
+      callbackURL: "http//localhost:3000/auth/google/callback",
+      scope: ["profile", "email"],
+    },
+    function (accessToken, refreshToken, profile, done) {
+      // console.log(profile)//!--> consoling profile;
+      done(null, profile);
+    }
+  )
+);
 
 
-// });
-// GoogleRouter.get("/login/failed", (req, res) => {
-//   res.redirect(`${RedirectLink}/userdashboard?authsuccess=false`)
-// });
+passport.serializeUser((user, done) => {
+  done(null, user);
+});
 
-// GoogleRouter.get("/logout", (req, res) => {
-//   req.logout();
-//   res.redirect(`${RedirectLink}`);
-// });
+passport.deserializeUser((user, done) => {
+  done(null, user);
+});
 
 
-
-
-// module.exports = GoogleRouter;
+module.exports = passport;
