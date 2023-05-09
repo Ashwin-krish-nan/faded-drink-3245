@@ -4,8 +4,8 @@
 
 > Project Code : faded-drink-3245 <br/>
 
-- Deployed Backend = 
-- Deployed Webite = 
+- Deployed Backend = https://backendbcs-xdos.vercel.app/
+- Deployed Webite =  https://frontendbcs.vercel.app/
 
 <p align="center">
  
@@ -27,9 +27,7 @@
 - Appointment Booking of a Lawyer by User.
 - Reminder through Email.
 - OTP password regenerate service.
-- Payment Gateway
 - Google Authentication.
-- Facebook Authentication.
 - Admin Authorization & CRUD Operations.
 
 ---
@@ -130,12 +128,11 @@ DELETE  /admin/deleteUser/:id
 - Type : Group Project
 - Duration of Project - 6 Days
 - Members who contributed 
-  - <a href="">Ashwin</a>
+  - <a href="https://www.linkedin.com/in/ashwin-385a86166">Ashwin</a>
   - <a href="">Himanshu</a>
-  - <a href="">Anand Kumar</a>
+  - <a href="https://www.linkedin.com/in/anandkr21/">Anand Kumar</a>
   - <a href="">Kanha Chhirolya</a>
   - <a href="">Jay Shukla</a>
-
 ---
 
 <br/>
