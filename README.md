@@ -61,11 +61,11 @@
 
 <br/>
 
-## 🏷 API Routes :
+## 🏷️ API Routes :
 
 #### User Routes :-
 
-
+```
 POST    /user/signup
 POST    /user/login
 POST    /user/verifyOTP
@@ -73,21 +73,21 @@ PATCH   /user/forgotpassword
 GET     /user/getaUserDataByEmail
 GET     /user/addAppointment
 
-
+```
 
 #### Lawyer Routes :-
 
-
+```
 POST    /lawyer/login
 PATCH   /lawyer/forgotpassword
 GET     /lawyer/getaUserDataByEmail
 GET     /lawyer/deleteAppointment
 
-
+```
 
 #### Admin Routes :-
 
-
+```
 // Admin
 GET     /admin/getAllAdmins
 GET     /admin/getAdmin/:id
@@ -105,9 +105,7 @@ GET     /admin/getAllUsers
 GET     /admin/getUser/:id
 DELETE  /admin/deleteUser/:id
 
-
-
----
+```
 
 ## <br/>
 <!-- 
