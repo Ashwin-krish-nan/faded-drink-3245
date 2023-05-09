@@ -35,10 +35,9 @@ const Section1 = () => {
       <div className="SecOneRight" data-aos="fade-up">
         <img
           style={{ width: "80%", borderRadius:"30px" }}
-          // src="https://img.freepik.com/free-photo/portrait-happy-woman-with-digital-tablet_329181-11681.jpg?w=360&t=st=1683292828~exp=1683293428~hmac=962af6e4752ae447734c4c6efc1c4e93b903fdbb991cebb60eaee0174cc51e80"
           src="https://i.pinimg.com/originals/41/9f/2f/419f2ff5df0faba958ccc8e64728cdcd.jpg"
 
-          alt="Brownben"
+          alt="bcs"
         />
       </div>
     </div>
