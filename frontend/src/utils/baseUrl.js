@@ -1,2 +1,2 @@
-const HOST = 'http://localhost:5000'
+const HOST = 'https://backendbcs-fo2j.vercel.app'
 export default HOST
