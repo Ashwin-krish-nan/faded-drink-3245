@@ -5,11 +5,12 @@
 
 > Project Code : faded-drink-3245 <br/>
 
-- Deployed Backend = https://frontendbcs.vercel.app/
-- Deployed Webite = https://backendbcs-xdos.vercel.app/
+- Deployed Backend = 
+- Deployed Webite = 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/112753481/229038276-095ee446-00ff-41d9-8f0c-38cbafef63d1.png" alt="Ace Logo">
+ 
+ ![WhatsApp Image 2023-05-03 at 12 39 54](https://github.com/Ashwin-krish-nan/faded-drink-3245/assets/113422735/170a94c4-ddf3-442d-bc6c-f8bfc3be5acf)
   </p>
 
 ## 🏷️ What is Better Call Saul?
@@ -40,9 +41,9 @@
 
 ### Frontend
 
-| React                                                                                                                          | Ant Design                                                                                                                     | Bootstrap                                                                                                                      | HTML                                                                                                                           | CSS                                                                                                                            | JavaScript                                                                                                                     |
+| React                                                                                                                                                                                                                                           | Bootstrap                                                                                                                      | HTML                                                                                                                           | CSS                                                                                                                            | JavaScript                                                                                                                     |
 | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| <img width="75px" src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png"> | <img width="75px" src="https://user-images.githubusercontent.com/25181517/190887795-99cb0921-e57f-430b-a111-e165deedaa36.png"> | <img width="75px" src="https://user-images.githubusercontent.com/25181517/183898054-b3d693d4-dafb-4808-a509-bab54cf5de34.png"> | <img width="75px" src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png"> | <img width="75px" src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png"> | <img width="70px" src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png"> |
+| <img width="75px" src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png"> | <img width="75px" src="https://user-images.githubusercontent.com/25181517/183898054-b3d693d4-dafb-4808-a509-bab54cf5de34.png"> | <img width="75px" src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png"> | <img width="75px" src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png"> | <img width="70px" src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png"> |
 
 #### Extra :-
 
@@ -143,7 +144,7 @@ DELETE  /admin/deleteUser/:id
 - Type : Group Project
 - Duration of Project - 6 Days
 - Members who contributed 
-  - <a href="">Ashwin</a>
+  - <a href="https://github.com/Ashwin-krish-nan">Ashwin</a>
   - <a href="">Himanshu</a>
   - <a href="">Anand Kumar</a>
   - <a href="">Kanha Chhirolya</a>
