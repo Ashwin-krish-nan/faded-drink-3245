@@ -1,0 +1,96 @@
+.Signupform {
+  padding: 200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 2px;
+  width: 30%;
+  background-color: #fff;
+  border: 1px solid grey;
+  padding: 80px 50px 40px 50px;
+}
+
+.Aclabsolute {
+  width: 180px;
+  position: absolute;
+  top: 20px;
+  left: 60px;
+  filter: saturate(2);
+}
+.RegisterTitle {
+  text-align: center;
+  font-size: 2.7rem;
+  line-height: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.line {
+  height: 1px;
+  flex: 1 1 0%;
+  background-color: rgba(55, 65, 81, 1);
+  color: white;
+}
+
+.Signupform input {
+  margin: 2px 0px !important;
+  font-size: 12px;
+  width: 100%;
+  border: 2px solid rgb(207, 203, 203);
+  border-radius: 4px;
+  padding: 7px 10px;
+}
+.Signupform input:hover,
+.Signupform input:focus {
+  outline: none !important;
+  border: 2px solid teal !important;
+  box-shadow: none !important;
+}
+
+.sub {
+  text-align: center;
+  color: black;
+  font-size: 14px;
+  width: 100%;
+}
+.ContinueRegis {
+  background-color: teal !important;
+  width: 90%;
+  font-size: 19px;
+  border-radius: 9px;
+  border: none;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+.ContinueRegis:hover {
+  background-color: lightblue !important;
+}
+.SignInSmol {
+  color: #ffd41f;
+}
+
+.SocialIcons {
+  width: 100%;
+}
+.SocialIcons > div {
+  margin: 5px;
+  cursor: pointer;
+  display: flex;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+  padding: 6px 30px;
+  border-radius: 5px;
+  color: rgb(48, 47, 47);
+  border: 1px solid grey !important;
+  justify-content: center;
+  align-items: center;
+}
+.SocialIcons div:hover {
+  cursor: pointer;
+  border: 1px solid #ffd41f;
+}

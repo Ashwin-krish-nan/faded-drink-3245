@@ -28,16 +28,16 @@ const Login = () => {
   };
 
   const [value, setValue] = useState("User Email");
-  const [imgpath, setImgPath] = useState("Images/Signup/avatar.png");
+  const [imgpath, setImgPath] = useState("Images/Signup/avata.png");
   let [email, setEmail] = useState("");
 
   let [password, setPassword] = useState("");
   const navigate = useNavigate();
   const handleClick = (str) => {
     setValue(str);
-    if (str === "User Email") setImgPath("Images/Signup/avatar.png");
-    else if (str === "Lawyer ID") setImgPath("Images/Signup/lawyerpng.jpg");
-    else setImgPath("Images/Signup/adminpng.png");
+    if (str === "User Email") setImgPath("Images/Signup/avata.png");
+    else if (str === "Lawyer ID") setImgPath("Images/Signup/lawyerpn.jpg");
+    else setImgPath("Images/Signup/adminpn.png");
   };
   const signIN = async (data) => {
     const response = await fetch(`${HOST}/user/login`, {
