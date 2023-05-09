@@ -37,7 +37,7 @@ const OtpPage = () => {
   return (
     <div className="OTPPAGE">
       <Link to="/">
-        <img className="Aclabsolute" src="Images/ACEyellow.png" alt="acelogo" />
+        <img className="Aclabsolute" src="Images/ACEyellow.png" alt="bcslogo" />
       </Link>
       <form className="otpform" onSubmit={(event) => handleSubmit(event)}>
         <div className="info">
