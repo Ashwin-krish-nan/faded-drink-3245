@@ -1,0 +1,61 @@
+.AdminDashboardParent {
+  width: 100%;
+  padding: 12px;
+  margin-top: 2px;
+  background-color: rgb(249, 247, 247);
+}
+
+.Graps {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 50px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+}
+.Graps > div {
+  padding: 20px;
+  width: 70%;
+  margin: 10px;
+  border-radius: 25px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.AdminBoxes {
+  width: 260px;
+  margin: auto;
+}
+.TopSpace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PaginationBox {
+  text-align: center;
+}
+.AdminLawyerImage {
+  overflow: hidden;
+  object-fit: cover !important;
+  height: 250px !important;
+}
+.AdminLawyerImage > img {
+  object-fit: cover;
+  object-position: center;
+  height: 250px !important;
+  width: 250px !important;
+}
+.AdminClientImage {
+  overflow: hidden;
+  object-fit: cover !important;
+  height: 150px !important;
+}
+.AdminClientImage > img {
+  height: 150px !important;
+  border-radius: 50%;
+  width: auto !important;
+}
+
+.customerCard p {
+  text-align: left;
+  font-size: 14px;
+}

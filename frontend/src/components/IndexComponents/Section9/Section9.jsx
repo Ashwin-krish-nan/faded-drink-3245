@@ -13,7 +13,7 @@ const Section9 = () => {
       <br />
       <div className="SecNineParent">
         <div className="YTvideoBox" data-aos="fade">
-          <img src="Images/FooterImages/background1.jpg" alt="yt" />
+          <img src="Images/FooterImages/background1.jpg" alt="img" />
           <br />
           <p className="gettoknowusmoreparargafasdkfjnas">
             Everyone has basic rights under the their Constitution and civil
