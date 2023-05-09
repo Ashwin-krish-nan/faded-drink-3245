@@ -144,7 +144,7 @@ DELETE  /admin/deleteUser/:id
 - Type : Group Project
 - Duration of Project - 6 Days
 - Members who contributed 
-  - <a href="">Ashwin</a>
+  - <a href="https://github.com/Ashwin-krish-nan">Ashwin</a>
   - <a href="">Himanshu</a>
   - <a href="">Anand Kumar</a>
   - <a href="">Kanha Chhirolya</a>
