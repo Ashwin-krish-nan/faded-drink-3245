@@ -25,7 +25,7 @@ exports.addAppointment = async (req, res) => {
     console.log(user[0].name, lawyer[0].name, payload.appointment_date?.date, payload?.appointmentTime, payload?.meeting_type)
     payload['userId'] = req.body.userid;
     const mailOptions = {
-        from: "ace.legal.services.official@gmail.com",
+        from: "bcs.legal.services.official@gmail.com",
         to: payload.userEmail,
         subject: "Appointment Status",
         html: emailTemplate.appointmentSuccess(user[0].name, lawyer[0].name, payload.appointment_date?.date, payload?.appointmentTime, payload?.meeting_type) // html body
