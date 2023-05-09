@@ -5,8 +5,8 @@
 
 > Project Code : faded-drink-3245 <br/>
 
-- Deployed Backend = 
-- Deployed Webite = 
+- Deployed Backend = https://frontendbcs.vercel.app/
+- Deployed Webite = https://backendbcs-xdos.vercel.app/
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/112753481/229038276-095ee446-00ff-41d9-8f0c-38cbafef63d1.png" alt="Ace Logo">
