@@ -9,7 +9,8 @@
 - Deployed Webite = 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/112753481/229038276-095ee446-00ff-41d9-8f0c-38cbafef63d1.png" alt="Ace Logo">
+ 
+ ![WhatsApp Image 2023-05-03 at 12 39 54](https://github.com/Ashwin-krish-nan/faded-drink-3245/assets/113422735/170a94c4-ddf3-442d-bc6c-f8bfc3be5acf)
   </p>
 
 ## 🏷️ What is Better Call Saul?
