@@ -27,7 +27,7 @@ exports.lawyerLogin = async (req, res) => {
                 res.send({ Message: "Password is incorrect" })
             }
             if(result){
-                const token=jwt.sign({LawyerId},"ALS");
+                const token=jwt.sign({LawyerId},"BCS");
                 res.send({ msg: "login successful", "token": token, status: "success"})
             }
         })
