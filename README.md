@@ -141,7 +141,7 @@ DELETE  /admin/deleteUser/:id
 - Duration of Project - 6 Days
 - Members who contributed 
   - <a href="https://www.linkedin.com/in/ashwin-385a86166">Ashwin</a>
-  - <a href="">Himanshu</a>
+  - <a href="https://www.linkedin.com/in/himanshu-aggarwal-6208a1137/">Himanshu Aggarwal</a>
   - <a href="https://www.linkedin.com/in/anandkr21/">Anand Kumar</a>
   - <a href="">Kanha Chhirolya</a>
   - <a href="">Jay Shukla</a>
