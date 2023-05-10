@@ -12,13 +12,24 @@
  ![WhatsApp Image 2023-05-03 at 12 39 54](https://github.com/Ashwin-krish-nan/faded-drink-3245/assets/113422735/170a94c4-ddf3-442d-bc6c-f8bfc3be5acf)
   </p>
 
-## 🏷️ What is Better Call Saul?
+## 🏷️ What is  <a href="https://frontendbcs.vercel.app/"> Better Call Saul</a>?
 
 - An Orignal Web Project for Legal Booking Appointment System.
 - Better Call Saul is an online web services for users and lawyers for formal connects.
-- We provide appointment facalities for with 12,000+ Professional Advocates around the World.   <a href="https://frontendbcs.vercel.app/"> 👉 Click here</a>
+- We provide appointment facalities for with 12,000+ Professional Advocates around the World.  
 
 ---
+![2023-05-09T21_28_26](https://github.com/Ashwin-krish-nan/faded-drink-3245/assets/113422735/53fb999a-efaf-4b27-9f2f-8dc8bf38086e)
+![2023-05-09T21_28_23](https://github.com/Ashwin-krish-nan/faded-drink-3245/assets/113422735/f2d4fd44-2d42-46d8-b3c2-98089bd0e853)
+
+
+![2023-05-09T21_28_19](https://github.com/Ashwin-krish-nan/faded-drink-3245/assets/113422735/64815918-304a-4ea3-94a3-7d20fcbb4704)
+
+
+
+![2023-05-09T21_28_15](https://github.com/Ashwin-krish-nan/faded-drink-3245/assets/113422735/d0229641-258c-467d-a52d-0f94a6dd7b5c)
+
+
 
 <br/>
 
@@ -27,9 +38,7 @@
 - Appointment Booking of a Lawyer by User.
 - Reminder through Email.
 - OTP password regenerate service.
-- Payment Gateway
 - Google Authentication.
-- Facebook Authentication.
 - Admin Authorization & CRUD Operations.
 
 ---
@@ -130,7 +139,7 @@ DELETE  /admin/deleteUser/:id
 - Type : Group Project
 - Duration of Project - 6 Days
 - Members who contributed 
-- <a href="https://www.linkedin.com/in/ashwin-385a86166">Ashwin</a>
+  - <a href="https://www.linkedin.com/in/ashwin-385a86166">Ashwin</a>
   - <a href="https://www.linkedin.com/in/himanshu-aggarwal-6208a1137">Himanshu Aggarwal</a>
   - <a href="https://www.linkedin.com/in/anandkr21/">Anand Kumar</a>
   - <a href="https://www.linkedin.com/in/kanha-chhirolya-241368242/">Kanha Chhirolya</a>
