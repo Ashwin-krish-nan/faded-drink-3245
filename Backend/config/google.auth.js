@@ -11,7 +11,7 @@ passport.use(
     {
       clientID: GOOGLE_CLIENT_ID,
       clientSecret: GOOGLE_CLIENT_SECRET,
-      callbackURL: "http//localhost:3000/auth/google/callback",
+      callbackURL: "https://backendbcs-fo2j.vercel.app/auth/google/callback",
       scope: ["profile", "email"],
     },
     function (accessToken, refreshToken, profile, done) {
