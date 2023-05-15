@@ -16,7 +16,7 @@
 
 - Better Call Saul is an online web services for users and lawyers for formal connects.
 - An Orignal Web Project for Legal Booking Appointment System.
-- We provide appointment facalities for with 12,000+ Professional Advocates around the World.  
+- We provide appointment facalities for with 1,000+ Professional Advocates around the World.  
 
 
 ---
