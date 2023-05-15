@@ -76,48 +76,49 @@
 
 #### User Routes :-
 
-
+```bash
 POST    /user/signup
 POST    /user/login
 POST    /user/verifyOTP
 PATCH   /user/forgotpassword
 GET     /user/getaUserDataByEmail
 GET     /user/addAppointment
-
+```
 
 
 #### Lawyer Routes :-
 
-
+```bash
 POST    /lawyer/login
 PATCH   /lawyer/forgotpassword
 GET     /lawyer/getaUserDataByEmail
 GET     /lawyer/deleteAppointment
-
+```
 
 
 #### Admin Routes :-
 
 
 // Admin
+```bash
 GET     /admin/getAllAdmins
 GET     /admin/getAdmin/:id
 POST    /admin/addAdmin
-
+```
 // Lawyer
+```bash
 GET     /admin/getAllLawyers
 GET     /admin/getLawyer/:id
 POST    /admin/addLawyer
 DELETE  /admin/deleteLawyer/:id
 POST    /admin/postAllLawyers
-
+```
 // User
+```bash
 GET     /admin/getAllUsers
 GET     /admin/getUser/:id
 DELETE  /admin/deleteUser/:id
-
-
-
+```
 ---
 
 ## <br/>
