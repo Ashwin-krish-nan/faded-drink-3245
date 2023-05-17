@@ -4,7 +4,7 @@
 
 > Project Code : faded-drink-3245 <br/>
 
-- Deployed Backend = https://backendbcs-xdos.vercel.app/
+- Deployed Backend = https://backendbcs-hgmz.vercel.app/
 - Deployed Website = https://frontendbcs.vercel.app/
 
 <p align="center">
